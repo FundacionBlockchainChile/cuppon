@@ -69,7 +69,7 @@ $(function () {
               </h5>
               <div class="storeInfo">
                 <h5 class="storeName">${item.storeName}</h5>
-                <p class="storeAddress">${item.address}</p>
+                <p class="storeAddress"><i class="fas fa-map-marker-alt"></i>  ${item.address}</p>
               </div>
               <div class="my_row cupponPrices">
                 <p class="price">${item.price}</p>
